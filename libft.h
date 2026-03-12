@@ -6,7 +6,7 @@
 /*   By: mleitao <mleitao@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 18:37:07 by mleitao           #+#    #+#             */
-/*   Updated: 2026/03/11 15:19:49 by mleitao          ###   ########.fr       */
+/*   Updated: 2026/03/12 20:31:24 by mleitao          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <stddef.h>
+# include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
 
