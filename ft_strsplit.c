@@ -6,15 +6,14 @@
 /*   By: mleitao <mleitao@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/13 18:34:00 by mleitao           #+#    #+#             */
-/*   Updated: 2026/03/13 18:37:47 by mleitao          ###   ########.fr       */
+/*   Updated: 2026/03/13 18:41:05 by mleitao          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int count
+static int	count_words(co)
 
-	char **
-	ft_split(char const *s, char c)
+	char **ft_split(char const *s, char c)
 {
 }

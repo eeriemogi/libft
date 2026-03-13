@@ -6,13 +6,13 @@
 /*   By: mleitao <mleitao@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/13 18:02:43 by mleitao           #+#    #+#             */
-/*   Updated: 2026/03/13 18:38:45 by mleitao          ###   ########.fr       */
+/*   Updated: 2026/03/13 18:41:38 by mleitao          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	in_set(char c, char const *set)
+static size_t	in_set(char c, char const *set)
 {
 	while (*set)
 	{
