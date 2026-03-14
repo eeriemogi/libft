@@ -6,7 +6,7 @@
 /*   By: mleitao <mleitao@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/13 18:34:00 by mleitao           #+#    #+#             */
-/*   Updated: 2026/03/14 02:32:58 by mleitao          ###   ########.fr       */
+/*   Updated: 2026/03/14 02:41:02 by mleitao          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,8 +47,8 @@ static char	*end_word(const char *s, char c)
 
 static void	split(char **r, char const *s, char c)
 {
-	char	*ewrd;
-	char	*wrd;
+	char	*e;
+	char	*w;
 	char	**p;
 
 	p = r;
@@ -57,18 +57,18 @@ static void	split(char **r, char const *s, char c)
 		s = start_word(s, c);
 		if (!*s)
 			break ;
-		ewrd = end_word(s, c);
-		wrd = malloc(sizeof(char) * (ewrd - s + 1));
-		if (!wrd)
+		e = end_word(s, c);
+		w = malloc(sizeof(char) * (e - s + 1));
+		if (!w)
 		{
 			while (p != r)
 				free(*--p);
 			free(r);
 			return ;
 		}
-		ft_strlcpy(wrd, s, ewrd - s + 1);
-		*p++ = wrd;
-		s = ewrd;
+		ft_strlcpy(w, s, e - s + 1);
+		*p++ = w;
+		s = e;
 	}
 	*p = NULL;
 }
