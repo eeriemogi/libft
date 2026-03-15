@@ -6,13 +6,14 @@
 /*   By: mleitao <mleitao@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 18:37:07 by mleitao           #+#    #+#             */
-/*   Updated: 2026/03/13 20:34:25 by mleitao          ###   ########.fr       */
+/*   Updated: 2026/03/15 15:57:10 by mleitao          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <limits.h>
 # include <stddef.h>
 # include <stdint.h>
 # include <stdlib.h>
